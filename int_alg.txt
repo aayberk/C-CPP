@@ -1,0 +1,32 @@
+﻿int_to_alg.exe 3 4 1 6 2 12 3 12 5 10 10 4 2 9
+
+0 	+	0	*	0	+
+*	0	+	0	*	0
+0	+	0	*	0	+	
+*	0	+	0	*	0
+0	+	0	*	0	+
+
+0 	+	0	*	0
+*	0	+	0	*
+0	+	0	*	0	
+*	0	+	0	*
+0	+	0	*	0
+
+.exe 2 3 1 2 3 4 5 6
+parametre olarak matrisin boyuları satır,sutun olarak verilecek ve
+programa çalıştırırken iki boyutlu bir matris veriliyor
+
+ilk satırın ilk elemanı 0	+
+ikinci satırın ilk elemanı *	0 olacak
+....
+....
+
+her işaretten sonra 0 , her 0 dan sonra işaret gelecek
+aynı işaret arka arkaya kullanılmayacak
+tek satırlar 0 +
+çift satırlar * 0 ile baslayacak
+
+
+
++ olan yerlere etrafındaki 0 ların toplamı
+* olan yerlere etrafındaki 0 ların çarpımı gelecek
