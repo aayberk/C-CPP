@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//int xx=0;		xx değişkeni kaçıncı adımda olduguna bakıyor
+//int xx=0;		xx deÃ°iÃ¾keni kaÃ§Ã½ncÃ½ adÃ½mda olduguna bakÃ½yor
 void kontrol(int * gelenDizi, int satir, int sutun)
 {
 	int c, d;
@@ -15,7 +15,7 @@ void kontrol(int * gelenDizi, int satir, int sutun)
 			dizi[c][d] = gelenDizi[r]; r++;
 		}
 	}
-	//olumlu olumsuz cevabi alamasi için bool olusturulur
+	//olumlu olumsuz cevabi alamasi iÃ§in bool olusturulur
 	bool bo = true;
 	//tum islemler0
 	for (c = 0; c < i; c++)
@@ -188,10 +188,6 @@ void siraDegistir(int satir, int sutun, int *gelenDizi,int basla)
 }
 int main(int argc, char * argv[])
 {
-	printf("*********************************\n");
-	printf("****   Ali Ayberk Unsalan   *****\n");
-	printf("****   1358120079   	    *****\n");
-	printf("*********************************\n");
 	int satir, sutun;
 	int tablo[400];
 	int c, basla = 0;
@@ -203,7 +199,7 @@ int main(int argc, char * argv[])
 		tablo[c] = atoi(argv[r]);
 		r++;
 	}
-	//	işlemleri yapan fonksiyonun cagrilmasi
+	//	iÃ¾lemleri yapan fonksiyonun cagrilmasi
 	siraDegistir(satir, sutun, tablo,basla);
 //	system("PAUSE");
 	return 0;
